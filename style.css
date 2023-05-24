@@ -34,6 +34,7 @@ h1{
     
   }
   body :nth-child(3){
+    max-width: 100%;
     margin: 20px;
 
   }
@@ -52,7 +53,7 @@ body :nth-child(2){
   font-size: 16px;
   width: 480px;
   /*Only max width is defined in the task description but without setting width the layout doesn't look like the given design*/
-  max-width: 480px;
+  /*max-width: 480px;*/
   height: 64px;
   color: #467745;
   box-sizing: border-box;
@@ -67,7 +68,7 @@ body :nth-child(3){
   font-weight: 500;
   font-size: 16px;
   width: 480px;
-  max-width: 480px;
+  /*max-width: 480px;*/
   height: 120px;
   color: #467745;
   border:none;
@@ -111,4 +112,10 @@ button{
   text-transform: uppercase;
   border:none;
 
+}
+
+input.check {
+  width: 20px;
+  height: 20px;
+  border: none;
 }
